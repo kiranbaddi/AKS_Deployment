@@ -1,8 +1,8 @@
 terraform {
   required_providers {
     azurerm = {
-      source  = "hashicorp/azurerm"
-      version = "2.59.0"
+      source = "hashicorp/azurerm"
+      version = "2.62.0"
     }
   }
 }
@@ -23,6 +23,3 @@ resource "azurerm_resource_group" "k8s" {
 
 }
 
-data "template_file" "key_data" {
-  template = file(var.pubkeypath)
-}

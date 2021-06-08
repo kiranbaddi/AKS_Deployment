@@ -1,0 +1,10 @@
+#Rename this file to terraform.tfvars and provide the corresponding values for all the variables
+
+prefix      = ""
+location    = ""
+workers     = 2
+worker_size = "Standard_B2s"
+dns_prefix  = ""
+pubkeypath  = ""
+Environment = ""
+CostCenter  = ""
